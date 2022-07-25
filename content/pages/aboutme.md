@@ -6,5 +6,5 @@ I'm Jerry Chi, a quadralingual data scientist living in Tokyo.
 
 I like machine learning, generative art/music, and crypto.
 
-I hope you have a nice day! ♫
+I hope you have a nice day! ♫♫♫
 
