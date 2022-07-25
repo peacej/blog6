@@ -1,8 +1,8 @@
 AUTHOR = 'Jerry Chi'
 SITENAME = "Jerry Chi's website"
 SITESUBTITLE = "Data Scientist in Tokyo"
-SITEURL = 'https://jerrychi.com'
-SITELOGO = SITEURL + "/images/profilepic.jpg"
+SITEURL = ''
+
 
 PATH = 'content'
 
