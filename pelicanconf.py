@@ -1,6 +1,8 @@
 AUTHOR = 'Jerry Chi'
 SITENAME = "Jerry Chi's website"
-SITEURL = ''
+SITESUBTITLE = "Data Scientist in Tokyo"
+SITEURL = 'https://jerrychi.com'
+SITELOGO = SITEURL + "/images/profilepic.jpg"
 
 PATH = 'content'
 
@@ -28,6 +30,8 @@ SOCIAL = (('Twitter', 'https://twitter.com/peacej'),
           )
 
 DEFAULT_PAGINATION = False
+
+THEME="/Users/jchi/pelican-themes/Flex"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
