@@ -16,14 +16,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Site created by Pelican', 'https://getpelican.com/'),
+        )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/peacej'),
+          ('Medium', 'https://peacej2.medium.com/'),
+          ('Linkedin','https://www.linkedin.com/in/jerrychi/'),
+          ('Github', 'https://github.com/peacej'),
+          ('E-mail', 'jerrychi123@gmail.com'),
+          )
 
 DEFAULT_PAGINATION = False
 
