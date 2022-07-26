@@ -1,15 +1,14 @@
-title: "My Favorite Mind Blowing Ml Ai Breakthroughs"
+---
+title: My Favorite Mind Blowing Ml Ai Breakthroughs
 date: 2019-02-10
 category: machine learning
 tags: machine learning,research,computer vision,unsupervised learning
-
+---
 
 
 
 ·7 min read
 
-My favorite mind-blowing ML/AI breakthroughs
-============================================
 
 Compared to other fields, machine learning / artificial intelligence seems to have a much higher frequency of super-interesting developments these days. Things that make you say “wow” or even “what a time to be alive!” (as the creator of [Two Minute Papers](https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg) always says)
 

@@ -1,15 +1,12 @@
-title: "How Machine Learning May Save Humanity"
+---
+title: How Machine Learning May Save Humanity
 date: 2020-06-12
 category: machine learning
 tags: machine learning,futurism,computer science
-
-
-
+---
 
 ·4 min read
 
-How machine learning may “save” humanity
-========================================
 
 I think humanity will end eventually (whether it takes hundreds or thousands of years). So what’ll we do when the end is near? We’d want to leave our legacy; in other words, **we’d want to save humanity’s knowledge and history as data and send it into space, hoping that aliens somewhere will receive it**. That sounds a lot better than just disappearing into the void without a trace.
 

@@ -1,14 +1,10 @@
-title: "The Nature Of Human Intelligence From A Computer Science Perspective"
+title: The Nature Of Human Intelligence From A Computer Science Perspective
 date: 2019-10-13
 category: computer science
 tags: computer science,human intelligence
 
-
-
 9 min read
 
-The nature of human intelligence from a computer science perspective
-====================================================================
 
 I’m tremendously curious about the long-term future of artificial intelligence. Understanding human intelligence better may be key to predicting the future of artificial intelligence. Thanks to both old books and recent research, my thinking and predictions have evolved quite a bit in the last few years. I now believe that Strong AI will be realized.
 

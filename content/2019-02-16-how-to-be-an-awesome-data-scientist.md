@@ -1,15 +1,14 @@
-title: "How To Be An Awesome Data Scientist"
+---
+title: How To Be An Awesome Data Scientist
 date: 2019-02-16
 category: Working as a data scientist
 tags: data science,communication,teamwork
-
+---
 
 
 
 ·7 min read
 
-How to be an awesome data scientist
-===================================
 
 The world is teeming with people who have the “data scientist” title but somehow don’t live up to expectations. This problem might be related to the use of the term “fake data scientist,” although I don’t think we should be snobby about academic qualifications etc.
 

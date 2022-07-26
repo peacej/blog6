@@ -1,15 +1,13 @@
+---
 title: "Guide To Working With Me A Data Science Manager"
 date: 2019-09-26
 category: Working as a data scientist
 tags: data science,communication,teamwork
-
+---
 
 
 
 ·9 min read
-
-Guide to working with me (a data science manager)
-=================================================
 
 This document is mainly for sharing with my colleagues and anyone I might work with in the future. But hey, I might as well post it on Medium; maybe someone will find it useful.
 

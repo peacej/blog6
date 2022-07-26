@@ -1,4 +1,3 @@
----
 title: "How To Be An Awesome Data Science Manager"
 date: 2019-03-21
 category: Working as a data scientist

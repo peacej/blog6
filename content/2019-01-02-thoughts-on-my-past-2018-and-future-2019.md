@@ -1,8 +1,9 @@
-title: "Thoughts On My Past 2018 And Future 2019"
-date: 2019-01-02T00:00:00+00:00
+---
+title: Thoughts On My Past 2018 And Future 2019
+date: 2019-01-02
 category: diary
 tags: goals,self-improvement
-
+---
 
 
 

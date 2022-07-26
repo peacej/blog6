@@ -22,6 +22,10 @@ if __name__ == "__main__":
     post_url = input("Enter post url: ")
     # Title of post
     title = "-".join(post_url.split("/")[-1].split("-")[:-1])
+    if title[0] == '"':
+        title = title[1:]
+    if title[-1] == '"':
+        title = title [:-1]
 
     category = input("Enter category: ")
     tags = input("Enter tags (comma-separated): ")
@@ -100,6 +104,7 @@ if __name__ == "__main__":
         res = []
         for line in content.splitlines():
             if "[Jerry Chi]" in line: continue
+            if line.strip() == title: continue
             elif ', 20' in line and (11 <= len(line.strip()) <= 12):
                 print('##DEBUG##')
                 line = line.strip()
@@ -115,10 +120,12 @@ if __name__ == "__main__":
     if date == '':
         date = input("Unable to auto-detect date. Enter date (format like 2018-10-05): ")
     new_content = (
-f"""title: "{title.replace('-', ' ').title()}"
+f"""---
+title: "{title.replace('-', ' ').title()}"
 date: {date}
 category: {category}
 tags: {tags}
+---
 
 """
         + new_content
