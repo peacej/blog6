@@ -1,5 +1,5 @@
 ---
-title: "Guide To Working With Me A Data Science Manager"
+title: Guide To Working With Me A Data Science Manager
 date: 2019-09-26
 category: Working as a data scientist
 tags: data science,communication,teamwork
@@ -9,7 +9,7 @@ tags: data science,communication,teamwork
 
 ·9 min read
 
-This document is mainly for sharing with my colleagues and anyone I might work with in the future. But hey, I might as well post it on Medium; maybe someone will find it useful.
+This document is mainly for sharing with my colleagues and anyone I might work with in the future. But hey, I might as well post it on Medium; maybe someone will find it useful. 
 
 **Below are principles, values, and best practices I tell myself to follow** (both for working at organizations and working in data science). You don’t need to believe all the same principles, but **if you read them you’ll understand how I think, and that may help us cooperate effectively.** I’ll try to understand how you think too, and we can work out our differences :)
 
