@@ -1,16 +1,12 @@
+---
 title: "How To Be An Awesome Data Science Manager"
 date: 2019-03-21
 category: Working as a data scientist
 tags: data science,communication
+---
 
 
-
-Mar 17, 2019
-
-·9 min read
-
-How to be an awesome data science manager
-=========================================
+9 min read
 
 This is a relatively new type of job, and many organizations and people are still in the midst of figuring out what makes a great data science manager.
 
