@@ -1,5 +1,5 @@
 ---
-title: My Favorite Mind Blowing Ml Ai Breakthroughs
+title: My Favorite Mind Blowing ML/AI Breakthroughs
 date: 2019-02-10
 category: machine learning
 tags: machine learning,research,computer vision,unsupervised learning
@@ -137,9 +137,3 @@ Closing
 I hope this post made you more excited about developments in ML/AI, if you weren’t already. Maybe I’ll write another similar post in a year from now. Please feel free to leave any thoughts/comments here or e-mail me at jerrychi123 \[at\] gmail.com.
 
 What a time to be alive! =D
-
-[![todo add alt text](https://miro.medium.com/max/20000/1*f2IVAl0TbsfES9cFGYr40g.png)](https://usejournal.com/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_image)
-
-📝 Read this story later in [Journal](https://usejournal.com/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_read_later_text).
-
-🗞 Wake up every Sunday morning to the week’s most noteworthy Tech stories, opinions, and news waiting in your inbox: [Get the noteworthy newsletter >](https://usejournal.com/newsletter/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_text)
