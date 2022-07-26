@@ -15,7 +15,7 @@ FAVICON = SITEURL + "/images/favicon.ico"
 
 FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
