@@ -1,6 +1,6 @@
 git add . 
 git commit -m "update content"
-pel content -s publishconf.py
+pelican content -s publishconf.py
 git checkout main
 git push origin main
 ghp-import output -b gh-pages
