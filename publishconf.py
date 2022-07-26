@@ -11,6 +11,7 @@ RELATIVE_URLS = False
 
 SITEURL = 'https://jerrychi.com'
 SITELOGO = SITEURL + "/images/profilepic.jpg"
+FAVICON = SITEURL + "/images/favicon.ico"
 
 FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
