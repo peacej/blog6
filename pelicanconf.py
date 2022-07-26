@@ -49,6 +49,9 @@ THEME="/Users/jchi/pelican-themes/Flex"
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = False
 THEME_COLOR_ENABLE_USER_OVERRIDE = False
 
+DATE_FORMATS = {
+    'en': '%Y-%m-%d',
+}
 #STATIC_PATHS = ["extra/custom.css"]
 
 #EXTRA_PATH_METADATA = {
@@ -58,9 +61,12 @@ THEME_COLOR_ENABLE_USER_OVERRIDE = False
 #CUSTOM_CSS = "custom.css"
 USE_LESS = True
 
-PLUGIN_PATHS = ["plugins/"]
-PLUGINS = [
-    'pelican_youtube'
-]
+
+
+#PLUGIN_PATHS = ["plugins/"]
+#PLUGINS = [
+#    'pelican_youtube'
+#]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
