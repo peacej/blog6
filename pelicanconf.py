@@ -12,6 +12,7 @@ TIMEZONE = 'Asia/Tokyo'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
+FEED_DOMAIN = None
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -32,6 +33,7 @@ SOCIAL = (('twitter', 'https://twitter.com/peacej'),
           ('linkedin','https://www.linkedin.com/in/jerrychi/'),
           ('github', 'https://github.com/peacej'),
           ('envelope', 'mailto:jerrychi123@gmail.com'),
+          ('rss', '//jerrychi.com/feeds/all.atom.xml')
           )
 
 MENUITEMS = (

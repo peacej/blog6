@@ -12,9 +12,9 @@ RELATIVE_URLS = False
 SITEURL = 'https://jerrychi.com'
 SITELOGO = SITEURL + "/images/profilepic.jpg"
 
-# Feed generation is usually not desired when developing
+FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

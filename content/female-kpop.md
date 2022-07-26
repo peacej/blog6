@@ -1,6 +1,7 @@
 title: Generating female k-pop faces
 slug: female-kpop
 category: AI art
+tags: AI art, Python, K-pop
 date: 2022-07-25
 modified: 2022-07-25
 
