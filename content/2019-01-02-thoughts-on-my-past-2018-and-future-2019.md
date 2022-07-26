@@ -5,16 +5,15 @@ category: diary
 tags: goals,self-improvement
 ---
 
-
-
-·4 min read
+4 min read
 
 Thoughts on my past (2018) and future (2019~)
 =============================================
 
 I finally decided to start posting on Medium, sure took me long enough. My [past blog on Blogger](http://peacej2.blogspot.com/) is still there (only 5 posts in 10 years.. hmm I guess I’m not very prolific).
 
-![todo add alt text](https://miro.medium.com/max/20000/1*aG461LzFzge8h3JSP1laXQ.jpeg)Randomly decided to apply style transfer (deep learning) to a photo of myself
+![todo add alt text](https://miro.medium.com/max/20000/1*aG461LzFzge8h3JSP1laXQ.jpeg) 
+*Randomly decided to apply style transfer (deep learning) to a photo of myself*
 
 My 2018
 =======
