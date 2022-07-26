@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jerry Chi's website - AI art</title><link href="https://jerrychi.com/" rel="alternate"></link><link href="https://jerrychi.com/feeds/ai-art.atom.xml" rel="self"></link><id>https://jerrychi.com/</id><updated>2019-02-11T00:00:00+09:00</updated><subtitle>Jerry Chi&lt;BR&gt;Data Scientist in Tokyo&lt;BR&gt;(site is under construction)</subtitle><entry><title>"Generating Fake K Pop Faces Part 1"</title><link href="https://jerrychi.com/generating-fake-k-pop-faces-part-1.html" rel="alternate"></link><published>2019-02-11T00:00:00+09:00</published><updated>2019-02-11T00:00:00+09:00</updated><author><name>Jerry Chi</name></author><id>tag:jerrychi.com,2019-02-11:/generating-fake-k-pop-faces-part-1.html</id><summary type="html">&lt;p&gt;·5 min read&lt;/p&gt;
-&lt;h1&gt;Generating fake K-pop faces (part 1)&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jerry Chi's website - AI art</title><link href="https://jerrychi.com/" rel="alternate"></link><link href="https://jerrychi.com/feeds/ai-art.atom.xml" rel="self"></link><id>https://jerrychi.com/</id><updated>2019-02-11T00:00:00+09:00</updated><subtitle>Jerry Chi&lt;BR&gt;Data Scientist in Tokyo&lt;BR&gt;(site is under construction)</subtitle><entry><title>Generating Fake K Pop Faces Part 1</title><link href="https://jerrychi.com/generating-fake-k-pop-faces-part-1.html" rel="alternate"></link><published>2019-02-11T00:00:00+09:00</published><updated>2019-02-11T00:00:00+09:00</updated><author><name>Jerry Chi</name></author><id>tag:jerrychi.com,2019-02-11:/generating-fake-k-pop-faces-part-1.html</id><summary type="html">&lt;p&gt;·5 min read&lt;/p&gt;
 &lt;p&gt;This project is for my own personal fun and learning. Hopefully it’ll be fun for some to read about my progress as well.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="todo add alt text" src="https://miro.medium.com/max/2000/1*b7Yy0V2cHo5n2yIZxlJMMw.gif"&gt;My first (poor) attempt to generate faces. Read on to see how I did this.&lt;/p&gt;
-&lt;h1&gt;Planned approach …&lt;/h1&gt;</summary><content type="html">&lt;p&gt;·5 min read&lt;/p&gt;
-&lt;h1&gt;Generating fake K-pop faces (part 1)&lt;/h1&gt;
+&lt;h1&gt;Planned approach&lt;/h1&gt;
+&lt;p&gt;I expect this project to have …&lt;/p&gt;</summary><content type="html">&lt;p&gt;·5 min read&lt;/p&gt;
 &lt;p&gt;This project is for my own personal fun and learning. Hopefully it’ll be fun for some to read about my progress as well.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="todo add alt text" src="https://miro.medium.com/max/2000/1*b7Yy0V2cHo5n2yIZxlJMMw.gif"&gt;My first (poor) attempt to generate faces. Read on to see how I did this.&lt;/p&gt;
 &lt;h1&gt;Planned approach&lt;/h1&gt;
