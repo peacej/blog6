@@ -23,7 +23,7 @@ Below are some of my favorite outputs curated from my use of DALL-E 2 (https://l
 ![image]({static}/images/DALL·E 2022-07-20 09.02.42 - A super saiyan cute kpop girl with blue hair surrounded in flames, 8k digital art .png)
 
 "rusty metal cyborg with a fiery dark portal to hades in the chest". I first inputted a photo of me into animefilter.com, then uploaded my anime-style face into DALL-E 2 while erasing the white space around it. (uploading photorealistic faces is not allowed.)
-¡[image]({static}/images/DALL·E 2022-07-24 21.42.01 - rusty metal cyborg with a fiery dark portal to hades in the chest.png)
+![image]({static}/images/DALL·E 2022-07-24 21.42.01 - rusty metal cyborg with a fiery dark portal to hades in the chest.png)
 
 "glamorous kpop idol partially made of intricate steampunk cyborg parts posing for a photo, 35mm film"
 ![image]({static}/images/DALL·E 2022-06-22 21.05.23 - glamorous kpop idol partially made of intricate steampunk cyborg parts posing for a photo, 35mm film .png)
