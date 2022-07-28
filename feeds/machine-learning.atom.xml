@@ -24,9 +24,7 @@
 &lt;ol&gt;
 &lt;li&gt;the parameters of a neural network compressed using another neural network&lt;/li&gt;
 &lt;li&gt;a model which can design/train other models (although getting this to run on an alien’s hardware/software stack might be non-trivial)&lt;/li&gt;
-&lt;li&gt;
-&lt;h1&gt;1 or #2 recursed indefinitely&lt;/h1&gt;
-&lt;/li&gt;
+&lt;li&gt;one of the above recursed indefinitely&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;(BTW, &lt;a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down"&gt;see this&lt;/a&gt; if you didn’t get the joke about turtles 😊)&lt;/p&gt;
 &lt;h1&gt;What would aliens do with the data?&lt;/h1&gt;
