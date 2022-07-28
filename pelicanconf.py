@@ -52,6 +52,9 @@ THEME_COLOR_ENABLE_USER_OVERRIDE = False
 DATE_FORMATS = {
     'en': '%Y-%m-%d',
 }
+
+SEARCH_MODE = "output" # https://github.com/pelican-plugins/search
+SEARCH_HTML_SELECTOR = "main"
 #STATIC_PATHS = ["extra/custom.css"]
 
 #EXTRA_PATH_METADATA = {
@@ -60,8 +63,6 @@ DATE_FORMATS = {
 
 #CUSTOM_CSS = "custom.css"
 USE_LESS = True
-
-
 
 #PLUGIN_PATHS = ["plugins/"]
 #PLUGINS = [

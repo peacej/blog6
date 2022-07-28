@@ -24,9 +24,7 @@
 &lt;ol&gt;
 &lt;li&gt;the parameters of a neural network compressed using another neural network&lt;/li&gt;
 &lt;li&gt;a model which can design/train other models (although getting this to run on an alien’s hardware/software stack might be non-trivial)&lt;/li&gt;
-&lt;li&gt;
-&lt;h1&gt;1 or #2 recursed indefinitely&lt;/h1&gt;
-&lt;/li&gt;
+&lt;li&gt;one of the above recursed indefinitely&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;(BTW, &lt;a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down"&gt;see this&lt;/a&gt; if you didn’t get the joke about turtles 😊)&lt;/p&gt;
 &lt;h1&gt;What would aliens do with the data?&lt;/h1&gt;
@@ -329,7 +327,7 @@
 &lt;p&gt;You can also proactively ask others for feedback on your communication. I’d also like to welcome you to give feedback to me on this Medium post :)&lt;/p&gt;
 &lt;p&gt;After you get better at communication via deliberate thinking, it’ll become more natural and automatic for you.&lt;/p&gt;
 &lt;h1&gt;Up next&lt;/h1&gt;
-&lt;p&gt;[Update 2019 Mar 19] I wrote a post called “&lt;a href="https://medium.com/@peacej2/how-to-be-an-awesome-data-science-manager-1c63b059a03c"&gt;How to be an awesome data science manager&lt;/a&gt;.”&lt;/p&gt;</content><category term="Working as a data scientist"></category><category term="data science"></category><category term="communication"></category><category term="teamwork"></category></entry><entry><title>Generating Fake K Pop Faces Part 1</title><link href="https://jerrychi.com/generating-fake-k-pop-faces-part-1.html" rel="alternate"></link><published>2019-02-11T00:00:00+09:00</published><updated>2019-02-11T00:00:00+09:00</updated><author><name>Jerry Chi</name></author><id>tag:jerrychi.com,2019-02-11:/generating-fake-k-pop-faces-part-1.html</id><summary type="html">&lt;p&gt;·5 min read&lt;/p&gt;
+&lt;p&gt;[Update 2019 Mar 19] I wrote a post called “&lt;a href="https://medium.com/@peacej2/how-to-be-an-awesome-data-science-manager-1c63b059a03c"&gt;How to be an awesome data science manager&lt;/a&gt;.”&lt;/p&gt;</content><category term="Working as a data scientist"></category><category term="data science"></category><category term="communication"></category><category term="teamwork"></category></entry><entry><title>Generating Fake K-pop Faces Part 1</title><link href="https://jerrychi.com/generating-fake-k-pop-faces-part-1.html" rel="alternate"></link><published>2019-02-11T00:00:00+09:00</published><updated>2019-02-11T00:00:00+09:00</updated><author><name>Jerry Chi</name></author><id>tag:jerrychi.com,2019-02-11:/generating-fake-k-pop-faces-part-1.html</id><summary type="html">&lt;p&gt;·5 min read&lt;/p&gt;
 &lt;p&gt;This project is for my own personal fun and learning. Hopefully it’ll be fun for some to read about my progress as well.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="todo add alt text" src="https://miro.medium.com/max/2000/1*b7Yy0V2cHo5n2yIZxlJMMw.gif"&gt;My first (poor) attempt to generate faces. Read on to see how I did this.&lt;/p&gt;
 &lt;h1&gt;Planned approach&lt;/h1&gt;

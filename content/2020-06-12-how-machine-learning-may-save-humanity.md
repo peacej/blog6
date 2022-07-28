@@ -47,7 +47,7 @@ So, we might want to send the aliens:
 
 1.  the parameters of a neural network compressed using another neural network
 2.  a model which can design/train other models (although getting this to run on an alien’s hardware/software stack might be non-trivial)
-3.  #1 or #2 recursed indefinitely
+3.  one of the above recursed indefinitely
 
 (BTW, [see this](https://en.wikipedia.org/wiki/Turtles_all_the_way_down) if you didn’t get the joke about turtles 😊)
 

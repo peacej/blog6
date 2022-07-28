@@ -1,5 +1,5 @@
 ---
-title: Generating Fake K Pop Faces Part 1
+title: Generating Fake K-pop Faces Part 1
 date: 2019-02-11
 category: AI art
 tags: AI art,tutorial,computer vision

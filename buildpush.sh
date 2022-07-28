@@ -1,3 +1,4 @@
+cp -r ~/pelican-themes/Flex ./pelican-themes-backup
 pelican content -s publishconf.py
 git add . 
 git commit -m "update content"
