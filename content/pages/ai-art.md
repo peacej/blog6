@@ -37,5 +37,5 @@ Below are some of my favorite outputs curated from my use of DALL-E 2 (https://l
 
 "A grandiose heavenly xianxia city in the clouds, 8k digital art" ([xianxia is 仙俠](https://en.wikipedia.org/wiki/Xianxia_(genre)), a Chinese fantasy genre) 
 
-![image]({static}/images/DALL·E 2022-07-24 21.42.01 - rusty metal cyborg with a fiery dark portal to hades in the chest.png)
+![image]({static}/images/DALL·E 2022-07-29 21.18.53 - A grandiose heavenly xianxia city in the clouds, 8k digital art.png)
 
