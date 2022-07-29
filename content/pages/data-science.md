@@ -9,6 +9,6 @@ Check out [my curated list of data science/machine learning resources](https://d
 Also, I've [prioritized the online courses that I've taken / will take](https://docs.google.com/spreadsheets/d/1qXP0SraoGA7PV1g9j6pjEV2N6g4ZIAAjkuRvh3Je5j4/).
 
 It's funny that, after taking "Introduction to AI" at Stanford in 2001, my conclusion was that it was a dead-end field. Basically, "AI doessn't work." 
-Boy, was I wrong. I regret I didn't get back into machine learning until 2015. Better late than never. 
+Boy, was I wrong. I regret I didn't get back into machine learning until 2015. Better late than never. (Got into analytics in 2011, that was a nice stepping stone.)
 
 In 2020, I gave [a talk on document embeddings and their use in recommendation systems](https://www.youtube.com/watch?v=2ipKSJBwriM&t=2s).
