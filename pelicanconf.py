@@ -64,7 +64,13 @@ SEARCH_HTML_SELECTOR = "main"
 #CUSTOM_CSS = "custom.css"
 USE_LESS = True
 
-#PLUGIN_PATHS = ["plugins/"]
+PLUGIN_PATHS = ['plugins']
+PLUGINS = [u"disqus_static"]
+
+DISQUS_SITENAME = 'jerrychi'
+DISQUS_SECRET_KEY = 'OMWjNgAWaPfLfPAfj17drHd7YTuZ1rTOEhExc8wOUsnFSWCpo9ZajFQyIclDU2qQ' # https://disqus.com/api/applications/
+DISQUS_PUBLIC_KEY = 'bunUejxtZYsdSuPtNBnZuINKuH97eb1scumZWTE1u59WovkSZzvaQU4vZiyoOjzH'
+
 #PLUGINS = [
 #    'pelican_youtube'
 #]
