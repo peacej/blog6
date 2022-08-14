@@ -6,6 +6,8 @@ AI-generated art/music is the coolest thing I have ever encountered in my life.
 
 Check out [my curated list of AI art/music resources/tools](https://docs.google.com/document/d/1-P58p-5yx8OXE0_0RN_D5Zg3lGqYQ88xtxOXClX5c_I/edit#). It includes a technical resources on the math and ML stuff, but also non-technical resources that anyone can use to generate art.
 
+In 2022 August, I gave a talk on text-to-image generative models for Machine Learning Tokyo ([slides](https://docs.google.com/presentation/d/1iTpMFJR6AtcwcOCehFBabYPUuMSq1HglcRyZgjGXOR8/edit#slide=id.g13be75f8405_1_0)) ([video](https://www.youtube.com/watch?v=SdahlzTVqVc)).
+
 I probably will start putting stuff on artstation.com as well.
 
 Below are some of my favorite outputs curated from my use of DALL-E 2 (https://labs.openai.com/).
