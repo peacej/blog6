@@ -20,9 +20,11 @@
 &lt;p&gt;Pelican also supports add-ons, themes, etc.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;See the &lt;a href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes repo&lt;/a&gt; for instructions on themes.&lt;/li&gt;
-&lt;li&gt;I chose to use the &lt;a href="https://github.com/alexandrevicenzi/Flex/"&gt;Flex theme&lt;/a&gt; which includes many nifty features such a mobile-first responsive UI.&lt;/li&gt;
+&lt;li&gt;I chose to use the &lt;a href="https://github.com/alexandrevicenzi/Flex/"&gt;Flex theme&lt;/a&gt; which includes many nifty features such a mobile-first responsive UI. I cloned this Flex repo directly rather than cloning from the &lt;code&gt;pelican-themes&lt;/code&gt; repo which pins Flex at an older version.&lt;ul&gt;
+&lt;li&gt;In &lt;code&gt;pelicanconf.py&lt;/code&gt; (the main configuration file) I simply set &lt;code&gt;PLUGINS = ["pelican.plugins.search"]&lt;/code&gt; and &lt;code&gt;STORK_VERSION = "1.5.0"&lt;/code&gt; to enable a search box on the left navigation bar. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;I also edited the &lt;code&gt;pelican-templates/Flex/static/stylesheet/style.less&lt;/code&gt; file to customize the font style (my first time dealing with the &lt;a href="https://lesscss.org/"&gt;Less language&lt;/a&gt; but it was easy to edit).&lt;/li&gt;
-&lt;li&gt;I added a search box with just a few lines of code using &lt;a href="https://pypi.org/project/pelican-search/"&gt;pelican-search&lt;/a&gt; .&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That’s it! Now you have a nice shiny new personal website~&lt;/p&gt;
 &lt;p&gt;So, why did I choose Pelican? I also considered Nikola and Django:&lt;/p&gt;
