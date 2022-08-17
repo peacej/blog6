@@ -161,7 +161,7 @@
   {% if MICROSOFT_CLARITY %}
     {% include "partial/clarity.html" %}
   {% endif %}
-  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/stork.css">
+  <link rel="stylesheet" href="https://files.stork-search.net/basic.css" />
 </head>
 <body {% if not THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE %}class="{{ THEME_COLOR|default('light') }}-theme"{% endif %}>
   {% if GOOGLE_TAG_MANAGER %}
@@ -315,11 +315,9 @@
   {% block additional_js %}{% endblock %}
   
   <!-- {% include 'partial/stork_search.html' %} -->
-  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/stork.js"></script>
+  <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
   <script>
-      stork.initialize("{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/stork.wasm")
-      stork.downloadIndex("sitesearch", "{{ SITEURL }}/search-index.st")
-      stork.attach("sitesearch")
+      stork.register("sitesearch", "{{ SITEURL }}/search-index.st")
   </script>
 </body>
 </html>
