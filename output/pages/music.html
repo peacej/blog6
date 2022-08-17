@@ -58,6 +58,7 @@
 
   <title>Jerry Chi's website &ndash; Music</title>
 
+  <link rel="stylesheet" href="https://jerrychi.com/theme/css/stork.css">
 </head>
 <body class="light-theme">
   <aside>
@@ -211,5 +212,12 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
 </script>
 
   
+  <!--  -->
+  <script src="https://jerrychi.com/theme/js/stork.js"></script>
+  <script>
+      stork.initialize("https://jerrychi.com/theme/js/stork.wasm")
+      stork.downloadIndex("sitesearch", "https://jerrychi.com/search-index.st")
+      stork.attach("sitesearch")
+  </script>
 </body>
 </html>

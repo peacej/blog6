@@ -21,7 +21,7 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 #RELATIVE_URLS = True
 
 DELETE_OUTPUT_DIRECTORY = True
-GOOGLE_GLOBAL_SITE_TAG = 'G-H0XWZ62N4Z' 
+GOOGLE_GLOBAL_SITE_TAG = 'G-H0XWZ62N4Z'  
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
