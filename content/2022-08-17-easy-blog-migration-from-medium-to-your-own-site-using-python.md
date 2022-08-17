@@ -35,9 +35,9 @@ We need a `master` or `main` git branch for all the code and then a `gh-pages` b
 Pelican also supports add-ons, themes, etc.
 
 *   See the [pelican-themes repo](https://github.com/getpelican/pelican-themes) for instructions on themes.
-*   I chose to use the [Flex theme](https://github.com/alexandrevicenzi/Flex/) which includes many nifty features such a mobile-first responsive UI.
+*   I chose to use the [Flex theme](https://github.com/alexandrevicenzi/Flex/) which includes many nifty features such a mobile-first responsive UI. I cloned this Flex repo directly rather than cloning from the `pelican-themes` repo which pins Flex at an older version.
+    - In `pelicanconf.py` (the main configuration file) I simply set `PLUGINS = ["pelican.plugins.search"]` and `STORK_VERSION = "1.5.0"` to enable a search box on the left navigation bar. 
 *   I also edited the `pelican-templates/Flex/static/stylesheet/style.less` file to customize the font style (my first time dealing with the [Less language](https://lesscss.org/) but it was easy to edit).
-*   I added a search box with just a few lines of code using [pelican-search](https://pypi.org/project/pelican-search/) .
 
 That’s it! Now you have a nice shiny new personal website~
 

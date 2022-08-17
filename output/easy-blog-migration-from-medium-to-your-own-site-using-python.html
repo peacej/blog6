@@ -207,9 +207,11 @@
 <p>Pelican also supports add-ons, themes, etc.</p>
 <ul>
 <li>See the <a href="https://github.com/getpelican/pelican-themes">pelican-themes repo</a> for instructions on themes.</li>
-<li>I chose to use the <a href="https://github.com/alexandrevicenzi/Flex/">Flex theme</a> which includes many nifty features such a mobile-first responsive UI.</li>
+<li>I chose to use the <a href="https://github.com/alexandrevicenzi/Flex/">Flex theme</a> which includes many nifty features such a mobile-first responsive UI. I cloned this Flex repo directly rather than cloning from the <code>pelican-themes</code> repo which pins Flex at an older version.<ul>
+<li>In <code>pelicanconf.py</code> (the main configuration file) I simply set <code>PLUGINS = ["pelican.plugins.search"]</code> and <code>STORK_VERSION = "1.5.0"</code> to enable a search box on the left navigation bar. </li>
+</ul>
+</li>
 <li>I also edited the <code>pelican-templates/Flex/static/stylesheet/style.less</code> file to customize the font style (my first time dealing with the <a href="https://lesscss.org/">Less language</a> but it was easy to edit).</li>
-<li>I added a search box with just a few lines of code using <a href="https://pypi.org/project/pelican-search/">pelican-search</a> .</li>
 </ul>
 <p>That’s it! Now you have a nice shiny new personal website~</p>
 <p>So, why did I choose Pelican? I also considered Nikola and Django:</p>
