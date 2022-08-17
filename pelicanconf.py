@@ -55,6 +55,7 @@ DATE_FORMATS = {
 
 SEARCH_MODE = "output" # https://github.com/pelican-plugins/search
 SEARCH_HTML_SELECTOR = "main"
+STORK_VERSION = "1.5.0"
 #STATIC_PATHS = ["extra/custom.css"]
 
 #EXTRA_PATH_METADATA = {
@@ -65,7 +66,7 @@ SEARCH_HTML_SELECTOR = "main"
 USE_LESS = True
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = [u"disqus_static"]
+PLUGINS = ["disqus_static","pelican.plugins.search"]
 
 DISQUS_SITENAME = 'jerrychi'
 DISQUS_SECRET_KEY = 'OMWjNgAWaPfLfPAfj17drHd7YTuZ1rTOEhExc8wOUsnFSWCpo9ZajFQyIclDU2qQ' # https://disqus.com/api/applications/
