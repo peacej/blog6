@@ -21,7 +21,7 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 #RELATIVE_URLS = True
 
 DELETE_OUTPUT_DIRECTORY = True
-
+GOOGLE_ANALYTICS = 'G-H0XWZ62N4Z' # guide at https://shahayush.com/2020/05/web-pelican-pt5-disqus-analytics/
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
