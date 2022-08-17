@@ -100,13 +100,20 @@ if __name__ == "__main__":
         new_content = new_content.replace(original, replacement)
     
     MONTH_NAMES = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
+    
+    title_idx = None
+    for line_num, line in enumerate(content.splitlines()):
+        if line[:10] == '=' * 10:
+            title_idx = line_num
+    
     def remove_by_line(content):
         scraped_date = ''
         res = []
-        for line in content.splitlines():
-            line = line.strip()
-            if "[Jerry Chi]" in line: continue
+        for line_num, line in enumerate(content.splitlines()):
+            line = line.strip().replace('![]','![image_alt_text]')
+            if line_num in (title_idx, title_idx -1): continue
             if line == title: continue
+            if "[Jerry Chi]" in line: continue
             elif ', 20' in line and (11 <= len(line.strip()) <= 12):
                 if len(line) == 11:
                     line = line[:4] + '0' + line[4:]
@@ -127,7 +134,7 @@ if __name__ == "__main__":
         date = input("Unable to auto-detect date. Enter date (format like 2018-10-05): ")
     new_content = (
 f"""---
-title: "{title.replace('-', ' ').title()}"
+title: {title.replace('-', ' ').title()}
 date: {date}
 category: {category}
 tags: {tags}

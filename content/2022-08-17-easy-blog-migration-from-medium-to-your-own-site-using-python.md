@@ -1,8 +1,8 @@
 ---
-title: "Easy Blog Migration From Medium To Your Own Site Using Python"
+title: Easy Blog Migration From Medium To Your Own Site Using Python
 date: 2022-08-17
 category: web dev
-tags: web dev,Python,blogging
+tags: web dev,blogging,Python
 ---
 
 
@@ -10,8 +10,6 @@ tags: web dev,Python,blogging
 
 ·3 min read
 
-Easy blog migration from Medium to your own site using Python
-=============================================================
 
 Recently I migrated my existing articles from Medium to my own new website ([https://jerrychi.com](https://jerrychi.com)) in a **quick, low-code way**. I wanted to have both blog articles and permanent pages (e.g. “About Me” page) and **high customizability while spending minimal effort and money**.
 
@@ -21,7 +19,7 @@ Register a domain name. I used [https://domains.google/](https://domains.google/
 
 Install required Python libraries including [Pelican](https://getpelican.com/) (the Python-based static site generator for creating personal blogs/websites) on your local laptop. E.g. `pip install -r requirements.txt` (see my `[requirements.txt](https://github.com/peacej/blog6/blob/main/requirements.txt)`). I used Python 3.8.6 in a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html) but other setups should work too.
 
-![](https://miro.medium.com/max/2000/1*F-NLYAtzFjXLDYa4PLzXOw.png)Pelican logo
+![image_alt_text](https://miro.medium.com/max/2000/1*F-NLYAtzFjXLDYa4PLzXOw.png)Pelican logo
 
 Auto-convert any Medium articles you choose to Markdown files (which are compatible with Pelican, which will then auto-convert them to HTML/Javascript) using the `medium_to_markdown` tool described at [https://willkoehrsen.github.io/writing/markdown/converting-medium-posts-to-markdown-for-your-blog /](https://willkoehrsen.github.io/writing/markdown/converting-medium-posts-to-markdown-for-your-blog/) . I did [slightly tweak his code](https://github.com/peacej/blog6/blob/main/medium_to_markdown.py) to e.g. filter out a few specific words. This doesn’t require any special access to your Medium account; it’s just scraping the text from the public internet.
 
