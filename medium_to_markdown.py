@@ -99,17 +99,23 @@ if __name__ == "__main__":
         replacement = f"![todo add alt text]({caption[0]})\n*{caption[1]}*\n\n"
         new_content = new_content.replace(original, replacement)
     
+    MONTH_NAMES = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
     def remove_by_line(content):
         scraped_date = ''
         res = []
         for line in content.splitlines():
+            line = line.strip()
             if "[Jerry Chi]" in line: continue
-            if line.strip() == title: continue
+            if line == title: continue
             elif ', 20' in line and (11 <= len(line.strip()) <= 12):
-                print('##DEBUG##')
-                line = line.strip()
                 if len(line) == 11:
                     line = line[:4] + '0' + line[4:]
+                assert len(line) == 12
+                scraped_date = arrow.get(line, "MMM DD, YYYY").format("YYYY-MM-DD")
+            elif (line[:3].lower() in MONTH_NAMES and (5 <= len(line.strip()) <= 6)):
+                if len(line) == 5:
+                    line = line[:4] + '0' + line[4:]
+                line = line + ', ' + arrow.utcnow().format("YYYY")
                 scraped_date = arrow.get(line, "MMM DD, YYYY").format("YYYY-MM-DD")
             else: res.append(line)
         return '\n'.join(res), scraped_date

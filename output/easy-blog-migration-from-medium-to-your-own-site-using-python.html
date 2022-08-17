@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet/less" type="text/css" href="https://jerrychi.com/theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="https://jerrychi.com/theme/pygments/github.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="https://jerrychi.com/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://jerrychi.com/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://jerrychi.com/theme/font-awesome/css/solid.css">
+
+
+    <link href="https://jerrychi.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Jerry Chi's website Atom">
+
+
+    <link rel="shortcut icon" href="https://jerrychi.com/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://jerrychi.com/images/favicon.ico" type="image/x-icon">
+
+
+
+<meta name="author" content="Jerry Chi" />
+<meta name="description" content="·3 min read Easy blog migration from Medium to your own site using Python Recently I migrated my existing articles from Medium to my own new website (https://jerrychi.com) in a quick, low-code way. I wanted to have both blog articles and permanent pages (e.g. “About Me” page …" />
+<meta name="keywords" content="web dev, Python, blogging">
+
+
+<meta property="og:site_name" content="Jerry Chi's website"/>
+<meta property="og:title" content="&#34;Easy Blog Migration From Medium To Your Own Site Using Python&#34;"/>
+<meta property="og:description" content="·3 min read Easy blog migration from Medium to your own site using Python Recently I migrated my existing articles from Medium to my own new website (https://jerrychi.com) in a quick, low-code way. I wanted to have both blog articles and permanent pages (e.g. “About Me” page …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://jerrychi.com/easy-blog-migration-from-medium-to-your-own-site-using-python.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2022-08-17 00:00:00+09:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://jerrychi.com/author/jerry-chi.html">
+<meta property="article:section" content="web dev"/>
+<meta property="article:tag" content="web dev"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="blogging"/>
+<meta property="og:image" content="https://jerrychi.com/images/profilepic.jpg">
+
+  <title>Jerry Chi's website &ndash; &#34;Easy Blog Migration From Medium To Your Own Site Using Python&#34;</title>
+
+  <link rel="stylesheet" href="https://files.stork-search.net/basic.css" />
+</head>
+<body class="light-theme">
+  <aside>
+    <div>
+      <a href="https://jerrychi.com">
+        <img src="https://jerrychi.com/images/profilepic.jpg" alt="" title="">
+      </a>
+
+      <h1>
+        <a href="https://jerrychi.com"></a>
+      </h1>
+
+<p>Jerry Chi<BR>Data Scientist in Tokyo</p>
+
+      <nav>
+        <ul class="list">
+
+
+              <li>
+                <a target="_self"
+                   href="https://jerrychi.com/pages/about-me.html#about-me">
+                  About me
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://jerrychi.com/pages/ai-art.html#ai-art">
+                  AI art
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://jerrychi.com/pages/crypto.html#crypto">
+                  Crypto
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://jerrychi.com/pages/data-science.html#data-science">
+                  Data Science
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="https://jerrychi.com/pages/music.html#music">
+                  Music
+                </a>
+              </li>
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-twitter" href="https://twitter.com/peacej" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-medium" href="https://peacej2.medium.com/" target="_blank">
+              <i class="fab fa-medium"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/jerrychi/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-youtube" href="https://www.youtube.com/c/JerryChi" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-github" href="https://github.com/peacej" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-envelope" href="mailto:jerrychi123@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-rss" href="//jerrychi.com/feeds/all.atom.xml" target="_blank">
+              <i class="fas fa-rss"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://jerrychi.com">Home</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://jerrychi.com/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="easy-blog-migration-from-medium-to-your-own-site-using-python">"Easy Blog Migration From Medium To Your Own Site Using Python"</h1>
+    <p>
+      Posted on 2022-08-17 in <a href="https://jerrychi.com/category/web-dev.html">web dev</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>·3 min read</p>
+<h1>Easy blog migration from Medium to your own site using Python</h1>
+<p>Recently I migrated my existing articles from Medium to my own new website (<a href="https://jerrychi.com">https://jerrychi.com</a>) in a <strong>quick, low-code way</strong>. I wanted to have both blog articles and permanent pages (e.g. “About Me” page) and <strong>high customizability while spending minimal effort and money</strong>.</p>
+<p>You can do this too! Here’s how:</p>
+<p>Register a domain name. I used <a href="https://domains.google/">https://domains.google/</a> to register <a href="https://jerrychi.com">jerrychi.com</a>, paying about $12 per year. This is the only thing I’m paying for.</p>
+<p>Install required Python libraries including <a href="https://getpelican.com/">Pelican</a> (the Python-based static site generator for creating personal blogs/websites) on your local laptop. E.g. <code>pip install -r requirements.txt</code> (see my <code>[requirements.txt](https://github.com/peacej/blog6/blob/main/requirements.txt)</code>). I used Python 3.8.6 in a <a href="https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html">conda environment</a> but other setups should work too.</p>
+<p><img alt="" src="https://miro.medium.com/max/2000/1*F-NLYAtzFjXLDYa4PLzXOw.png">Pelican logo</p>
+<p>Auto-convert any Medium articles you choose to Markdown files (which are compatible with Pelican, which will then auto-convert them to HTML/Javascript) using the <code>medium_to_markdown</code> tool described at <a href="https://willkoehrsen.github.io/writing/markdown/converting-medium-posts-to-markdown-for-your-blog/">https://willkoehrsen.github.io/writing/markdown/converting-medium-posts-to-markdown-for-your-blog /</a> . I did <a href="https://github.com/peacej/blog6/blob/main/medium_to_markdown.py">slightly tweak his code</a> to e.g. filter out a few specific words. This doesn’t require any special access to your Medium account; it’s just scraping the text from the public internet.</p>
+<p>Push your code to a new Github repo.</p>
+<ul>
+<li>You can host the website on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">Github Pages</a> for free, up to 1 GB of storage (nothing beyond that even if you want to pay). If I ever need more than 1 GB, I might migrate to Heroku.</li>
+<li>You can <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">use your own custom domain</a> (in my case <a href="https://jerrychi.com">jerrychi.com</a>)</li>
+</ul>
+<p>We need a <code>master</code> or <code>main</code> git branch for all the code and then a <code>gh-pages</code> branch to store the actual website assets that are served when people visit your site. Thankfully one can just use a tool called <code>ghp-import</code> to automate pushing the only the needed to <code>gh-pages</code> branch. You can see <a href="https://github.com/peacej/blog6/blob/main/buildpush.sh">how I use this tool</a>. After pushing to github, usually changes are reflected in a few seconds on my website.</p>
+<ul>
+<li>Tip: style changes to CSS files etc. may require an “<a href="https://gsuitetips.com/tips/chrome/chrome:-empty-cache-and-hard-reload/#:~:text=Normal%20Reload%3A%20Uses%20Cached%20Data,be%20re%2Ddownloaded%20as%20required.">empty cache and hard reload</a>” in Chrome to be visually reflected on the website due to caching.</li>
+</ul>
+<p>Pelican also supports add-ons, themes, etc.</p>
+<ul>
+<li>See the <a href="https://github.com/getpelican/pelican-themes">pelican-themes repo</a> for instructions on themes.</li>
+<li>I chose to use the <a href="https://github.com/alexandrevicenzi/Flex/">Flex theme</a> which includes many nifty features such a mobile-first responsive UI.</li>
+<li>I also edited the <code>pelican-templates/Flex/static/stylesheet/style.less</code> file to customize the font style (my first time dealing with the <a href="https://lesscss.org/">Less language</a> but it was easy to edit).</li>
+<li>I added a search box with just a few lines of code using <a href="https://pypi.org/project/pelican-search/">pelican-search</a> .</li>
+</ul>
+<p>That’s it! Now you have a nice shiny new personal website~</p>
+<p>So, why did I choose Pelican? I also considered Nikola and Django:</p>
+<ul>
+<li>Nikola: the second-most popular Python static site generator after Pelican. I did initially try building with Nikola but got frustrated with the documentation being a bit unclearly worded and the lack of resources/answers when e.g. googling around for an issue. Pelican is more established and popular with more discussion/answers for potential issues.</li>
+<li>Django: the most popular Python web backend framework. I did take the <a href="https://docs.djangoproject.com/en/4.1/intro/tutorial01/">Django official tutorial</a>, which was enjoyable and extremely well-written. However, Django is much more complicated than Pelican (which is natural since Django is a general-purpose framework for creating any sort of webpage) and I’d likely end up combining Django with a frontend framework like React (meaning one more framework to learn). The complexity and work required was overkill for needs: a simple personal website. I’ll come back to learn Django+React if I need a much fancier site.</li>
+</ul>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://jerrychi.com/tag/web-dev.html">web dev</a>
+      <a href="https://jerrychi.com/tag/python.html">Python</a>
+      <a href="https://jerrychi.com/tag/blogging.html">blogging</a>
+    </p>
+  </div>
+
+
+
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'jerrychi';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+
+  
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Jerry Chi's website ",
+  "url" : "https://jerrychi.com",
+  "image": "https://jerrychi.com/images/profilepic.jpg",
+  "description": ""
+}
+</script>
+
+
+  <script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+<script>
+    stork.register("sitesearch", "https://jerrychi.com/search-index.st")
+</script>
+</body>
+</html>
