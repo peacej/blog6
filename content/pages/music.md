@@ -1,12 +1,12 @@
 ---
 Title: Music
 Date: 2022-07-25 10:20
-Modified: 2022-07-25 10:21
+Modified: 2022-08-21 10:21
 ---
 
 This page is about non-AI music. Regarding AI-generated music, I'll be adding to the [AI art page](https://jerrychi.com/pages/ai-art.html).)
 
-I'm a fan of many music genres. K-pop, J-pop, EDM, classical, hip-hop, R&B. Especially K-pop. Epik High, IU, Zion.T, Blackpink, LE SSERAFIM, etc.
+I'm a fan of many music genres. K-pop, J-pop, EDM, classical, hip-hop, R&B.  m-flo, Shiina Ringo, Epik High, IU, Zion.T, Blackpink, LE SSERAFIM, etc.
 
 Here is me rapping / breakdancing on a Korean TV show called "Let's Speak Korean," a game show to help foreigners learn Korean. It was broadcast in over 150 countries.
 The original song, a massive hit, is "Lollipop" by Big Bang and 2NE1 ([original music vid](https://www.youtube.com/watch?v=zIRW_elc-rY)).
