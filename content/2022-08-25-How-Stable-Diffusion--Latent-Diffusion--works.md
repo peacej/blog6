@@ -1,5 +1,5 @@
 ---
-title: How Stable Diffusion Latent Diffusion Works
+title: How Stable Diffusion (Latent Diffusion) works
 date: 2022-08-25
 category: AI art
 tags: AI art,machine learning
@@ -21,7 +21,7 @@ Basically, it uses a variational autoencoder (VAE) combined with a denoising dif
 
 Stable Diffusion is [basically a special case / specific configuration of Latent Diffusion](https://github.com/CompVis/stable-diffusion). A lot of effort went into making it very high-quality and easy to use for the masses.
 
-The above explanation barely scratches the surface [**For more in-depth details on Stable Diffusion / Latent Diffusion, please see this google doc I made.**](https://docs.google.com/document/d/1x4iHe9mdyqpuINRN2EYMuG6_0JSBoNnjtDdSte18Ugc/edit#)
+The above explanation barely scratches the surface. [**For more in-depth details on Stable Diffusion / Latent Diffusion, please see this google doc I made.**](https://docs.google.com/document/d/1x4iHe9mdyqpuINRN2EYMuG6_0JSBoNnjtDdSte18Ugc/edit#)
 
 Also, I compiled various AI art resources (both technical and non-technical) at [https://tinyurl.com/creative-ai-links](https://tinyurl.com/creative-ai-links).
 

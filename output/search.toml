@@ -30,7 +30,7 @@ title = "Music"
 [[input.files]]
 path = "how-stable-diffusion-latent-diffusion-works.html"
 url = "/how-stable-diffusion-latent-diffusion-works.html"
-title = "How Stable Diffusion Latent Diffusion Works"
+title = "How Stable Diffusion (Latent Diffusion) works"
 
 [[input.files]]
 path = "easy-blog-migration-from-medium-to-your-own-site-using-python.html"

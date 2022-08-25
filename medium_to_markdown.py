@@ -21,7 +21,7 @@ if __name__ == "__main__":
     date = ""
     post_url = input("Enter post url: ")
     # Title of post
-    title = "-".join(post_url.split("/")[-1].split("-")[:-1])
+    title = " ".join(post_url.split("/")[-1].split("-")[:-1])
     if title[0] == '"':
         title = title[1:]
     if title[-1] == '"':
@@ -107,11 +107,13 @@ if __name__ == "__main__":
             title_idx = line_num
     
     def remove_by_line(content):
+        global title
         scraped_date = ''
         res = []
         for line_num, line in enumerate(content.splitlines()):
             line = line.strip().replace('![]','![image_alt_text]')
-            if line_num in (title_idx, title_idx -1): continue
+            if line_num == title_idx -1: title = line
+            if line_num == title_idx: continue
             if line == title: continue
             if "[Jerry Chi]" in line: continue
             elif ', 20' in line and (11 <= len(line.strip()) <= 12):
@@ -134,7 +136,7 @@ if __name__ == "__main__":
         date = input("Unable to auto-detect date. Enter date (format like 2018-10-05): ")
     new_content = (
 f"""---
-title: {title.replace('-', ' ').title()}
+title: {title}
 date: {date}
 category: {category}
 tags: {tags}
@@ -146,7 +148,9 @@ tags: {tags}
 
     # Directory for saving post
     # File is automatically correctly named
-    post_file_name = f"content/{date}-{title}.md"
+    title_for_file_name = re.sub(r'[^\w]', ' ', title)
+    title_for_file_name = '-'.join(title_for_file_name.split(' '))
+    post_file_name = f"content/{date}-{title_for_file_name}.md"
 
     # Save the modified post
     with open(post_file_name, "w") as fout:
