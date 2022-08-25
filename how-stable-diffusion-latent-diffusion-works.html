@@ -51,7 +51,7 @@
 
 
   <meta property="og:site_name" content="Jerry Chi's website"/>
-  <meta property="og:title" content="How Stable Diffusion Latent Diffusion Works"/>
+  <meta property="og:title" content="How Stable Diffusion (Latent Diffusion) works"/>
   <meta property="og:description" content="·2 min read The Stable Diffusion model, just released a few days ago, is all the rage right now, with tons of people generating all sorts of amazing high-quality images, sometimes on par with or even better than OpenAI’s DALL-E 2. But how does it actually work from a …"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content="https://jerrychi.com/how-stable-diffusion-latent-diffusion-works.html"/>
@@ -64,7 +64,7 @@
   <meta property="article:tag" content="machine learning"/>
   <meta property="og:image" content="https://jerrychi.com/images/profilepic.jpg">
 
-  <title>Jerry Chi's website &ndash; How Stable Diffusion Latent Diffusion Works</title>
+  <title>Jerry Chi's website &ndash; How Stable Diffusion (Latent Diffusion) works</title>
 
   <link rel="stylesheet" href="https://files.stork-search.net/basic.css" />
 </head>
@@ -178,7 +178,7 @@
 <article class="single">
   <header>
       
-    <h1 id="how-stable-diffusion-latent-diffusion-works">How Stable Diffusion Latent Diffusion Works</h1>
+    <h1 id="how-stable-diffusion-latent-diffusion-works">How Stable Diffusion (Latent Diffusion) works</h1>
     <p>
       Posted on 2022-08-25 in <a href="https://jerrychi.com/category/ai-art.html">AI art</a>
 
@@ -193,7 +193,7 @@
 <p>Basically, it uses a variational autoencoder (VAE) combined with a denoising diffusion model. The key idea is that using diffusion models in pixel space (the raw image) is not the most efficient approach, since there are many barely perceptible small details that are not efficiently learned by a diffusion model. Rather, we can use a VAE to map images into a latent space (a form of compression), and then train the diffusion model in the (much smaller) latent space of images.</p>
 <p><img alt="image_alt_text" src="https://miro.medium.com/max/20006/0*iltP4V3p0cGAkL_O">Source: <a href="https://huggingface.co/blog/stable_diffusion">https://huggingface.co/blog/stable_diffusion</a></p>
 <p>Stable Diffusion is <a href="https://github.com/CompVis/stable-diffusion">basically a special case / specific configuration of Latent Diffusion</a>. A lot of effort went into making it very high-quality and easy to use for the masses.</p>
-<p>The above explanation barely scratches the surface <a href="https://docs.google.com/document/d/1x4iHe9mdyqpuINRN2EYMuG6_0JSBoNnjtDdSte18Ugc/edit#"><strong>For more in-depth details on Stable Diffusion / Latent Diffusion, please see this google doc I made.</strong></a></p>
+<p>The above explanation barely scratches the surface. <a href="https://docs.google.com/document/d/1x4iHe9mdyqpuINRN2EYMuG6_0JSBoNnjtDdSte18Ugc/edit#"><strong>For more in-depth details on Stable Diffusion / Latent Diffusion, please see this google doc I made.</strong></a></p>
 <p>Also, I compiled various AI art resources (both technical and non-technical) at <a href="https://tinyurl.com/creative-ai-links">https://tinyurl.com/creative-ai-links</a>.</p>
 <p>Of course, we need to wrap up with some actual AI art :) The below image was generated using Stable Diffusion at <a href="https://beta.dreamstudio.ai/">https://beta.dreamstudio.ai/</a> with the prompt “Character portrait of a graceful and pretty Korean princess with gorgeous detailed eyes and flowing hair, fantasy setting, color page, tankobon, 4k, tone mapping, doll, akihiko yoshida, james jean, andrei riabovitchev, marc simonetti, yoshitaka amano”</p>
 <p><img alt="image_alt_text" src="https://miro.medium.com/max/20000/1*ePNHU-hG80IQrfE8m7J-1w.jpeg"></p>
