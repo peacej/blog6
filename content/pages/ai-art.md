@@ -42,3 +42,9 @@ Below are some of my favorite outputs curated from my use of DALL-E 2 (https://l
 
 ![image]({static}/images/DALL·E 2022-07-29 21.18.53 - A grandiose heavenly xianxia city in the clouds, 8k digital art.png)
 
+
+To generate a video of changing anime faces, I interpolated in the latent space of the [Waifu Diffusion](https://github.com/harubaru/waifu-diffusion) model (fine-tuned from [Stable Diffusion](https://github.com/CompVis/stable-diffusion)):
+
+<div class="youtube" align="center">
+<iframe width="512" height="512" src="https://www.youtube.com/embed/lkdqfyDCK70" frameborder="0"></iframe>
+</div>
