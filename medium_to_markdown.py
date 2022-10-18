@@ -26,6 +26,7 @@ if __name__ == "__main__":
         title = title[1:]
     if title[-1] == '"':
         title = title [:-1]
+    print(f'title is {title}')
 
     category = input("Enter category: ")
     tags = input("Enter tags (comma-separated): ")
@@ -51,7 +52,8 @@ if __name__ == "__main__":
 
     # Extract html as string
     content = content.stdout.read().decode()
-
+    print(content)
+    raise ValueError()
     # Replace noscript image duplication
     new_content = re.sub("\\n\\n<noscript>(.*?)<\/noscript>\\n\\n", "\n", content)
 
