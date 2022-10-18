@@ -47,7 +47,7 @@
 
 <meta name="author" content="Jerry Chi" />
 <meta name="description" content="·2 min read The Stable Diffusion model, just released a few days ago, is all the rage right now, with tons of people generating all sorts of amazing high-quality images, sometimes on par with or even better than OpenAI’s DALL-E 2. UPDATE 2022–10–07: a new, more beginner-friendly …" />
-<meta name="keywords" content="machine learning">
+<meta name="keywords" content="a">
 
 
   <meta property="og:site_name" content="Jerry Chi's website"/>
@@ -59,8 +59,8 @@
   <meta property="article:published_time" content="2022-08-25 00:00:00+09:00"/>
   <meta property="article:modified_time" content=""/>
   <meta property="article:author" content="https://jerrychi.com/author/jerry-chi.html">
-  <meta property="article:section" content="AI art"/>
-  <meta property="article:tag" content="machine learning"/>
+  <meta property="article:section" content="a"/>
+  <meta property="article:tag" content="a"/>
   <meta property="og:image" content="https://jerrychi.com/images/profilepic.jpg">
 
   <title>Jerry Chi's website &ndash; How Stable Diffusion (Latent Diffusion) works</title>
@@ -179,7 +179,7 @@
       
     <h1 id="how-stable-diffusion-latent-diffusion-works">How Stable Diffusion (Latent Diffusion) works</h1>
     <p>
-      Posted on 2022-08-25 in <a href="https://jerrychi.com/category/ai-art.html">AI art</a>
+      Posted on 2022-08-25 in <a href="https://jerrychi.com/category/a.html">a</a>
 
     </p>
   </header>
@@ -192,15 +192,17 @@
 https://jalammar.github.io/illustrated-stable-diffusion/</a> .</p>
 <p>But how does it actually work from a technical perspective?</p>
 <p>Basically, it uses a variational autoencoder (VAE) combined with a denoising diffusion model. The key idea is that using diffusion models in pixel space (the raw image) is not the most efficient approach, since there are many barely perceptible small details that are not efficiently learned by a diffusion model. Rather, we can use a VAE to map images into a latent space (a form of compression), and then train the diffusion model in the (much smaller) latent space of images.</p>
-<p>Source: <a href="https://huggingface.co/blog/stable_diffusion">https://huggingface.co/blog/stable_diffusion</a></p>
+<p><img alt="" src="https://miro.medium.com/max/640/0*iltP4V3p0cGAkL_O">
+Source: <a href="https://huggingface.co/blog/stable_diffusion">https://huggingface.co/blog/stable_diffusion</a></p>
 <p>Stable Diffusion is <a href="https://github.com/CompVis/stable-diffusion">basically a special case / specific configuration of Latent Diffusion</a>. A lot of effort went into making it very high-quality and easy to use for the masses.</p>
 <p>The above explanation barely scratches the surface. <a href="https://docs.google.com/document/d/1x4iHe9mdyqpuINRN2EYMuG6_0JSBoNnjtDdSte18Ugc/edit#"><strong>For more in-depth details on Stable Diffusion / Latent Diffusion, please see this google doc I made.</strong></a></p>
 <p>Also, I compiled various AI art resources (both technical and non-technical) at <a href="https://tinyurl.com/creative-ai-links">https://tinyurl.com/creative-ai-links</a>.</p>
-<p>Of course, we need to wrap up with some actual AI art :) The below image was generated using Stable Diffusion at <a href="https://beta.dreamstudio.ai/">https://beta.dreamstudio.ai/</a> with the prompt “Character portrait of a graceful and pretty Korean princess with gorgeous detailed eyes and flowing hair, fantasy setting, color page, tankobon, 4k, tone mapping, doll, akihiko yoshida, james jean, andrei riabovitchev, marc simonetti, yoshitaka amano”</p>
+<p>Of course, we need to wrap up with some actual AI art :) The below image was generated using Stable Diffusion at <a href="https://beta.dreamstudio.ai/">https://beta.dreamstudio.ai/</a> with the prompt “Character portrait of a graceful and pretty Korean princess with gorgeous detailed eyes and flowing hair, fantasy setting, color page, tankobon, 4k, tone mapping, doll, akihiko yoshida, james jean, andrei riabovitchev, marc simonetti, yoshitaka amano”
+<img alt="" src="https://miro.medium.com/max/720/1*ePNHU-hG80IQrfE8m7J-1w.jpeg"></p>
   </div>
   <div class="tag-cloud">
     <p>
-      <a href="https://jerrychi.com/tag/machine-learning.html">machine learning</a>
+      <a href="https://jerrychi.com/tag/a.html">a</a>
     </p>
   </div>
 
