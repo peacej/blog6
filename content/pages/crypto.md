@@ -5,7 +5,7 @@ Title: Crypto
 I've been messing around with crypto since 2013 in various ways. 
 I believe crypto/blockchain provides humanity with new primitives for not just finance but also human coordination/communication and ownership. Even if 99% of projects are bad, something useful will come out of the blockchain revolution. 
 
-Check out [my curated list of crypto resources/tools](https://docs.google.com/document/d/19Jx0J5WtGOS77wh_WGnu2WdNkfGwg_tQ0bIjNCbmHvA/edit) and my [NFT collection](https://photos.google.com/share/AF1QipNaHOVlvN23zw4z9Ewg0o6rJmOzAQMFZqn__-bUVCq3WFG3uu6_2-SsJLE7a5yhog?key=VTk5TV9rbEtyRUg2RmZMRzl4bjdwUDdPMzhlbVB3). My most valuable NFT is this [Chromie Squiggle](https://chromie-squiggles.com/) which is an important part of the history of generative art. The blue favicon you can see in this browser tab is a crop of this NFT. 
+Check out [my curated list of crypto resources/tools](https://docs.google.com/document/d/1-dv-1XlpfPaT4ax6o1m65Ip8FmeXgKygueimGSWMu-c/) and my [NFT collection](https://photos.google.com/share/AF1QipNaHOVlvN23zw4z9Ewg0o6rJmOzAQMFZqn__-bUVCq3WFG3uu6_2-SsJLE7a5yhog?key=VTk5TV9rbEtyRUg2RmZMRzl4bjdwUDdPMzhlbVB3). My most valuable NFT is this [Chromie Squiggle](https://chromie-squiggles.com/) which is an important part of the history of generative art. The blue favicon you can see in this browser tab is a crop of this NFT. 
 
 ![chromie squiggle]({static}/images/chromie-squiggle.jpeg). 
 
