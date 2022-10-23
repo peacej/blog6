@@ -52,8 +52,7 @@ if __name__ == "__main__":
 
     # Extract html as string
     content = content.stdout.read().decode()
-    print(content)
-    raise ValueError()
+    
     # Replace noscript image duplication
     new_content = re.sub("\\n\\n<noscript>(.*?)<\/noscript>\\n\\n", "\n", content)
 
@@ -106,7 +105,9 @@ if __name__ == "__main__":
     title_idx = None
     for line_num, line in enumerate(content.splitlines()):
         if line[:10] == '=' * 10:
+            print(f"Detected title at line: {line_num}")
             title_idx = line_num
+            break
     
     def remove_by_line(content):
         global title
@@ -114,7 +115,8 @@ if __name__ == "__main__":
         res = []
         for line_num, line in enumerate(content.splitlines()):
             line = line.strip().replace('![]','![image_alt_text]')
-            if line_num == title_idx -1: title = line
+            if line_num == title_idx -1: 
+                title = line
             if line_num == title_idx: continue
             if line == title: continue
             if "[Jerry Chi]" in line: continue
