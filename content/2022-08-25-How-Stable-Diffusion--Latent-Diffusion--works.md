@@ -1,8 +1,8 @@
 ---
 title: How Stable Diffusion (Latent Diffusion) works
 date: 2022-08-25
-category: a
-tags: a
+category: AI art
+tags: AI art,machine learning
 ---
 
 
