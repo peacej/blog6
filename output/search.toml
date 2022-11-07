@@ -28,6 +28,11 @@ url = "/pages/music.html"
 title = "Music"
 
 [[input.files]]
+path = "why-creativity-flourishes-in-japan.html"
+url = "/why-creativity-flourishes-in-japan.html"
+title = "Why creativity flourishes in Japan"
+
+[[input.files]]
 path = "trying-out-ai-music-generation-with-dance-diffusion.html"
 url = "/trying-out-ai-music-generation-with-dance-diffusion.html"
 title = "Trying out AI music generation with Dance Diffusion"
