@@ -66,7 +66,7 @@ STORK_VERSION = "1.5.0"
 USE_LESS = True
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ["disqus_static","pelican.plugins.search","representative_image"]
+PLUGINS = ["disqus_static","pelican.plugins.search"]
 
 
 DISQUS_SITENAME = 'jerrychi'
