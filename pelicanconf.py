@@ -66,7 +66,8 @@ STORK_VERSION = "1.5.0"
 USE_LESS = True
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ["disqus_static","pelican.plugins.search"]
+PLUGINS = ["disqus_static","pelican.plugins.search","representative_image"]
+
 
 DISQUS_SITENAME = 'jerrychi'
 DISQUS_SECRET_KEY = 'OMWjNgAWaPfLfPAfj17drHd7YTuZ1rTOEhExc8wOUsnFSWCpo9ZajFQyIclDU2qQ' # https://disqus.com/api/applications/
