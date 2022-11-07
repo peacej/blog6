@@ -9,7 +9,7 @@ Check out [my curated list of crypto resources/tools](https://docs.google.com/do
 
 My most valuable NFT is this [Chromie Squiggle](https://chromie-squiggles.com/) which is an important part of the history of generative art. The blue favicon you can see in this browser tab is a crop of this NFT. 
 
-![chromie squiggle]({static}/images/chromie-squiggle.jpeg). 
+![chromie squiggle]({static}/images/chromie-squiggle.jpeg)
 
 I published an introductory book about crypto/web3 in Japanese in May 2022, ["The Future of Money" (お金の未来)](https://gendai.ismedia.jp/list/books/gendai-shinsho/9784065282977)
 

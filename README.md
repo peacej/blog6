@@ -7,3 +7,4 @@ Run `bash buildpush.sh` to automatically build (convert from Markdown to HTML et
 
 Run `python medium_to_markdown.py` for an interactive migration tool to convert a Medium article into a markdown file.
 
+More details in [my blog post](https://jerrychi.com/easy-blog-migration-from-medium-to-your-own-site-using-python.html).
