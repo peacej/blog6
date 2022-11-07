@@ -21,7 +21,7 @@ Below are some of my favorite outputs curated from my use of DALL·E 2 and Stabl
 
 "Candid photo of Totoro, photographed by Annie Leibovitz" (DALL·E 2)
 
-![image]({static}/images/content/images/DALL·E 2022-11-07 15.54.28 - Candid photo of Totoro, photographed by Annie Leibovitz.png)
+![image]({static}/images/DALL·E 2022-11-07 15.54.28 - Candid photo of Totoro, photographed by Annie Leibovitz.png)
 
 "A super saiyan jellyfish, 8k digital art" (DALL·E 2)
 
@@ -46,7 +46,7 @@ Below are some of my favorite outputs curated from my use of DALL·E 2 and Stabl
 
 "Isometric view illustration of a sprawling cyberpunk metropolis, bustling Tokyo cityscape, futuristic scifi architecture in the year 2100, nighttime satellite photo, synthwave art by james gilleard, bruce pennington, unreal engine" (Stable Diffusion)
 
-![image]({static}/content/images/311503951_10106693626854923_2220319810559106406_n.jpeg)
+![image]({static}/images/311503951_10106693626854923_2220319810559106406_n.jpeg)
 
 “Pop art of daft punk at a vaporwave neon futuristic cyberpunk Tokyo bustling street at night cyberart by liam wong, rendered in octane, 3d render, trending on cgsociety, blender 3d” (Stable Diffusion)
 
