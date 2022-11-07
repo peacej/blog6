@@ -3,6 +3,7 @@ title: Why creativity flourishes in Japan
 date: 2022-11-07
 category: art
 tags: Japan,art,history,sociology,economics
+cover: https://miro.medium.com/max/700/0*pfpqA2giNMTW0Zm9.jpg
 ---
 
 
