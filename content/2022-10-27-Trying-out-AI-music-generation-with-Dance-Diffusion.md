@@ -3,6 +3,7 @@ title: Trying out AI music generation with Dance Diffusion
 date: 2022-10-27
 category: AI music
 tags: AI music,machine learning,music
+cover: {static}/images/4078242513_Pop_art_of_daft_punk_at_a_vaporwave_neon_futuristic_cyberpunk_Tokyo__bustling_street_at_night_cyberart_by_liam_wong__rendered_in_octane__3d_render__trending_on_cgsociety__blender_3d.png
 ---
 
 
