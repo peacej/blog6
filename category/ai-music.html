@@ -18,6 +18,7 @@
           href="https://jerrychi.com/theme/pygments/github.min.css">
 
 
+      <link rel="stylesheet" type="text/css" href="https://jerrychi.com/theme/stork/stork-dark.css" />
 
   <link rel="stylesheet" type="text/css" href="https://jerrychi.com/theme/font-awesome/css/fontawesome.css">
   <link rel="stylesheet" type="text/css" href="https://jerrychi.com/theme/font-awesome/css/brands.css">
@@ -70,6 +71,10 @@
       </h1>
 
 <p>Jerry Chi<BR>Data Scientist in Tokyo</p>
+        <div class="stork-wrapper-dark">
+          <input class="stork-input" type="text" name="q" data-stork="sitesearch" placeholder="Search..."/>
+          <div class="stork-output" data-stork="sitesearch-output"></div>
+        </div>
       <nav>
         <ul class="list">
 
@@ -209,6 +214,10 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a 
 </script>
 
   
+<script src="https://files.stork-search.net/releases/v1.5.0/stork.js"></script>
+<script>
+        stork.register("sitesearch", "https://jerrychi.com/search-index.st", {showProgress: false})
+</script>
 
 </body>
 </html>
