@@ -10,7 +10,6 @@ cmd2==1.4.0
 colorama==0.4.4
 commonmark==0.9.1
 docutils==0.19
-feature-selector===N-A
 feedgenerator==2.0.0
 ghp-import==2.1.0
 idna==3.3
@@ -27,7 +26,6 @@ pytz==2022.1
 requests==2.28.1
 rich==12.5.1
 s3transfer==0.3.3
-scikit-learn==0.23.2
 six==1.16.0
 tabulate==0.8.7
 typing_extensions==4.3.0
