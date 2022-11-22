@@ -3,7 +3,7 @@ Code for my personal website/blog (https://jerrychi.com).
 # requirements
 - Stork search https://stork-search.net/docs/install
 - pelican search https://pypi.org/project/pelican-search/ 
-
+- Disqus (you may need to install directly from github for it to work `pip install git+https://github.com/disqus/disqus-python`)
 
 `main` branch is for the code/config which is used by the [Pelican](https://blog.getpelican.com/) framework to auto-generate HTML/CSS files.
 `gh-pages` branch is for the HTML files etc. that are actually served for the website.
