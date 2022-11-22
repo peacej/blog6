@@ -16,7 +16,7 @@ Here is a video of me popping while dressed as a Rirakkuma (relaxing bear).
 <iframe width="800" height="500" src="https://www.youtube.com/embed/8PxEFti645A" frameborder="0"></iframe>
 </div>
 
-Here are my kids. They are 1/4 Japanese and 1/4 Korean.
+Here are my kids. They are 1/4 Japanese and 1/4 Korean. 
 
 ![image]({static}/images/kids.jpg)
 
