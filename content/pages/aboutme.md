@@ -8,6 +8,8 @@ I'm Jerry Chi, a quadralingual (Chinese, Japanese, Korean) data scientist living
 
 I like machine learning, generative art/music, and crypto.
 
+I established the Japan branch of [Stability AI](https://stability.ai/), a generative AI startup, in January 2023, and I'm leading and building out the team (engineering, community, and business roles). We are building generative image and language models for the Japanese market and Japanese speakers.
+
 I grew up in Silicon Valley (Cupertino) and have lived in Seoul, Beijing, Hong Kong, Taipei, Helsinki, London, Toronto, and Philadelphia.
 
 Here is a video of me popping while dressed as a Rirakkuma (relaxing bear).
