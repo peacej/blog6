@@ -4,13 +4,9 @@ Title: AI art
 
 AI-generated art/music is the coolest thing I have ever encountered in my life.
 
-Since January 2023, as the founder and leader of the Japan office of Stability AI, I talked a lot about Stable Diffusion and generative AI in public. 
+Since January 2023, as the founder and leader of the Japan office of Stability AI, I talked a lot about Stable Diffusion and generative AI in public (not limited to AI art). 
 
-For example, here is a 6-minute special on Stable Diffusion on TBS, the Japanese TV station (June 2023). 
-
-<div class="youtube" align="center">
-<iframe width="800" height="500" src="https://www.youtube.com/watch?v=2Jmv22jbMPc" frameborder="0"></iframe>
-</div>
+For example, [here is a 6-minute special about Stable Diffusion on TBS](https://www.youtube.com/watch?v=2Jmv22jbMPc), the Japanese TV station (June 2023). 
 
 By the way, please also consider following the [Stability AI Japan official Twitter](https://twitter.com/StabilityAI_JP) (in Japanese).
 
