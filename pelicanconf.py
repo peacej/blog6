@@ -45,7 +45,7 @@ MENUITEMS = (
 
 DEFAULT_PAGINATION = False
 
-THEME="/Users/jchi/pelican-themes/Flex"
+THEME="/mnt/c/Users/user/pelican-themes/Flex"
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = False
 THEME_COLOR_ENABLE_USER_OVERRIDE = False
 
