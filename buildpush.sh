@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -v
 cp -r ../../pelican-themes/Flex ./pelican-themes-backup
 pelican content -s publishconf.py
 git add . 
