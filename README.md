@@ -14,5 +14,4 @@ Run `python medium_to_markdown.py` for an interactive migration tool to convert 
 
 
 
-
 More details in [my blog post](https://jerrychi.com/easy-blog-migration-from-medium-to-your-own-site-using-python.html).
