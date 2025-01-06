@@ -28,6 +28,11 @@ url = "/pages/music.html"
 title = "Music"
 
 [[input.files]]
+path = "japan-as-an-international-hub-for-ai.html"
+url = "/japan-as-an-international-hub-for-ai.html"
+title = "Japan as an international hub for AI"
+
+[[input.files]]
 path = "why-creativity-flourishes-in-japan.html"
 url = "/why-creativity-flourishes-in-japan.html"
 title = "Why creativity flourishes in Japan"
