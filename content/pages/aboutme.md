@@ -1,14 +1,14 @@
 ---
 Title: About me
-Date: 2022-07-25 10:20
-Modified: 2022-07-25 10:21
 ---
 
-I'm Jerry Chi, a quadralingual (Chinese, Japanese, Korean) data scientist living in Tokyo.
+I'm Jerry Chi, a quadralingual (Chinese, Japanese, Korean) GenAI tinkerer living in Tokyo.
 
 I like machine learning, generative art/music, and crypto.
 
-I established the Japan branch of [Stability AI](https://stability.ai/), a generative AI startup, in January 2023, and I'm leading and building out the team (engineering, community, and business roles). We are building generative image and language models for the Japanese market and Japanese speakers.
+Currently, I'm leading research at Mewtant, which runs the anime-style image generation platform [PixAI](https://pixai.art/) and is developing an AI-powered manga/webtoon creation tool. 
+
+Previously, I established the Japan branch of [Stability AI](https://stability.ai/), a generative AI startup, in January 2023; we built generative image and language models for the Japanese market and Japanese speakers.
 
 I grew up in Silicon Valley (Cupertino) and have lived in Seoul, Beijing, Hong Kong, Taipei, Helsinki, London, Toronto, and Philadelphia.
 
