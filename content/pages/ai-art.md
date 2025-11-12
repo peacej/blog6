@@ -47,7 +47,6 @@ Below are some of my favorite outputs curated from my use of DALL·E 2 and Stabl
 "glamorous kpop idol partially made of intricate steampunk cyborg parts posing for a photo, 35mm film" (DALL·E 2)
 
 ![image]({static}/images/DALL·E 2022-06-22 21.05.23 - glamorous kpop idol partially made of intricate steampunk cyborg parts posing for a photo, 35mm film .png)
-![image]({static}/images/DALL·E 2022-06-22 21.05.56 - glamorous kpop idol partially made of intricate steampunk cyborg parts posing for a photo, 35mm film .png)
 
 "A grandiose heavenly xianxia city in the clouds, 8k digital art" ([xianxia is 仙俠](https://en.wikipedia.org/wiki/Xianxia_(genre)), a Chinese fantasy genre) (DALL·E 2)  
 

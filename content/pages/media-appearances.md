@@ -20,10 +20,10 @@ I've appeared on NHK (Japan's national broadcaster) twice to talk about GenAI.
 NHKで２回、生成AIについて話しました。
 
 The first interview was after I delivered the keynote speech at AI EXPO TOKYO (AI・人工知能 EXPO), maybe the largest AI-focused event in Japan. 
-![image]({static}/images/nhk2.png)
+![image]({static}/images/nhk2.jpg)
 
 The second appearance coincided with my talk about GenAI and the media industry at Note, a major content platform in Japan. ([full video](https://www.youtube.com/watch?v=r-GPFkQyt8g&t=2370s)).
-![image]({static}/images/nhk1.jpg)
+![image]({static}/images/nhk1.png)
 
 
 Somehow I ended up on the same page as the legendary AI godfather Yoshua Bengio on the Nikkei (2023 Dec). I was talking about the importance of open model weights; unfortunately the journalist decided to change it to "open code" (a different concept) without asking me.
