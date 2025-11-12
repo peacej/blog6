@@ -23,6 +23,11 @@ url = "/pages/data-science.html"
 title = "Data Science"
 
 [[input.files]]
+path = "pages/manga-anime.html"
+url = "/pages/manga-anime.html"
+title = "Manga & Anime"
+
+[[input.files]]
 path = "pages/media-appearances.html"
 url = "/pages/media-appearances.html"
 title = "Media Appearances"
