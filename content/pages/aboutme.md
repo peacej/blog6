@@ -4,7 +4,7 @@ Title: About me
 
 I'm Jerry Chi, a quadralingual (Chinese, Japanese, Korean) GenAI tinkerer living in Tokyo.
 
-I like machine learning, generative art/music, and crypto.
+I like machine learning, generative art/music, games, and anime.
 
 Currently, I'm leading research at Mewtant, which runs the anime-style image generation platform [PixAI](https://pixai.art/) and is developing an AI-powered manga/webtoon creation tool. 
 
