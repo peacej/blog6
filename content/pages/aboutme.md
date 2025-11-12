@@ -31,7 +31,5 @@ I wish I had many break-dancing moves but I don't.
 
 ![image]({static}/images/breakdance.jpeg)
 
-In 2021, [the Governor of Tokyo randomly tweeted about me](https://twitter.com/ecoyuri/status/1397901710547251203). Basically it's an article (in the first issue of the government's Tokyo Updates publication) about how it's awesome to live and work in Tokyo (in [English](https://www.tokyoupdates.metro.tokyo.lg.jp/en/post-219/), [日本語](https://www.tokyoupdates.metro.tokyo.lg.jp/post-224/)). 
-
 Anyway, I hope you have a nice day! ♫♫
 
