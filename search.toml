@@ -8,9 +8,9 @@ url = "/pages/about-me.html"
 title = "About me"
 
 [[input.files]]
-path = "pages/ai-art.html"
-url = "/pages/ai-art.html"
-title = "AI art"
+path = "pages/creative-ai.html"
+url = "/pages/creative-ai.html"
+title = "Creative AI"
 
 [[input.files]]
 path = "pages/crypto.html"
