@@ -21,6 +21,7 @@ On a personal note, some of my favorite games:
 - Civilization series
 - Bastion
 - Monument Valley
+- Cave Story (洞窟物語)
 
 Nier Automata might be the best game of all time for me.
 ![nier automata]({static}/images/nier.jpg)
