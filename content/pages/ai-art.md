@@ -1,15 +1,27 @@
 ---
-Title: AI art
+Title: Creative AI
 ---
 
-AI-generated art/music is the coolest thing I have ever encountered in my life.
+AI-generated art/games/music is the coolest thing I have ever encountered in my life.
 
-Since January 2023, as the founder and leader of the Japan office of Stability AI, I talked a lot about Stable Diffusion and generative AI in public (not limited to AI art). 
+Since January 2023, as the founder and leader of the Japan office of Stability AI, I talked a lot about Stable Diffusion and generative AI in public. 
 
 For example, [here is a 6-minute special about Stable Diffusion on TBS](https://www.youtube.com/watch?v=2Jmv22jbMPc), the Japanese TV station (June 2023). 
 
+While at Stability AI, I co-led the development of cool interactive AI art projects...
 
-Check out [my curated list of AI art/music resources/tools](https://docs.google.com/document/d/1-P58p-5yx8OXE0_0RN_D5Zg3lGqYQ88xtxOXClX5c_I/edit#). It includes both   non-technical resources that anyone can use to generate art and technical resources on the math and ML stuff.
+...[with Honda](https://chizaizukan.com/property/honda-dream-loop-ai/), allowing users to generate their "dream vehicle" and make it float on a giant curved screen at Japan Mobility Show:
+
+![image]({static}/images/honda1.webp)
+![image]({static}/images/honda2.webp)
+
+
+...[with Asahi Beer](https://www.asahibeer.co.jp/news/2023/0926.html), allowing users to upload a photo of themselves holding the newest Asahi beer can and turning it into art reflecting their mood:
+
+![image]({static}/images/asahibeer.jpg)
+
+
+Check out [my curated list of AI art/music resources/tools](https://docs.google.com/document/d/1-P58p-5yx8OXE0_0RN_D5Zg3lGqYQ88xtxOXClX5c_I/edit#). It includes both non-technical resources that anyone can use to generate art and technical resources on the math and ML stuff (maybe out of date).
 
 Also, see my [AI art blog posts](https://jerrychi.com/tag/ai-art.html).
 

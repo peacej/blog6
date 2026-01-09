@@ -29,7 +29,6 @@ HOME_HIDE_TAGS = False
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/peacej'),
-          ('medium', 'https://peacej2.medium.com/'),
           ('linkedin','https://www.linkedin.com/in/jerrychi/'),
           ('youtube','https://www.youtube.com/c/JerryChi'),
           ('github', 'https://github.com/peacej'),
