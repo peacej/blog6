@@ -1,6 +1,6 @@
 AUTHOR = 'Jerry Chi'
 SITENAME = "Jerry Chi's website"
-SITESUBTITLE = "Jerry Chi<BR>GenAI Tinkerer in Tokyo<BR>leading research at PixAI/Mewtant"
+SITESUBTITLE = "Jerry Chi<BR>GenAI Tinkerer<BR>Head of Tokyo AI Innovation Lab @ Supercell"
 SITEURL = "http://127.0.0.1:8000"
 SITELOGO = SITEURL + "/images/profilepic.jpg"
 FAVICON = SITEURL + "/images/favicon.ico"
