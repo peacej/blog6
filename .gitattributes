@@ -1,0 +1,2 @@
+# Preserve the exact bytes of the backup whose Windows path ends in U+F00D.
+"pelican-themes-backup\357\200\215/**" -text
