@@ -32,7 +32,6 @@ SOCIAL = (('twitter', 'https://twitter.com/peacej'),
           ('linkedin','https://www.linkedin.com/in/jerrychi/'),
           ('youtube','https://www.youtube.com/c/JerryChi'),
           ('github', 'https://github.com/peacej'),
-          ('envelope', 'mailto:jerrychi123@gmail.com'),
           ('rss', '//jerrychi.com/feeds/all.atom.xml')
           )
 

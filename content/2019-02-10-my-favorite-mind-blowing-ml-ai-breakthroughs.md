@@ -134,6 +134,6 @@ The basic idea is that, in any language, certain words/concepts will tend to app
 Closing
 =======
 
-I hope this post made you more excited about developments in ML/AI, if you weren’t already. Maybe I’ll write another similar post in a year from now. Please feel free to leave any thoughts/comments here or e-mail me at jerrychi123 \[at\] gmail.com.
+I hope this post made you more excited about developments in ML/AI, if you weren’t already. Maybe I’ll write another similar post in a year from now. Please feel free to leave any thoughts/comments here.
 
 What a time to be alive! =D
