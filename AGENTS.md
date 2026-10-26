@@ -119,15 +119,14 @@ directly and keep the source checkout in place.
 - `.venv` is ignored by Git, but the existing `.venv_backup20250104` has tracked
   files. Do not add environments or perform incidental cleanup of that backup.
 
-## Conflicting helper commands
+## Build and deployment commands
 
 - `README.md` describes the correct `main` / `gh-pages` separation and recommends
   `buildpush.sh`.
-- `Makefile` sets `GITHUB_PAGES_BRANCH=main`, and `tasks.py` sets
-  `github_pages_branch` to `main`. Their `make github` / `invoke gh-pages`
-  commands would import generated files into the source branch and do not
-  implement the required two-branch workflow. Do not use them for deployment in
-  their current form. Follow `buildpush.sh` and the instructions above.
+- The root `Makefile` and `tasks.py` were removed because their unused legacy
+  deployment commands conflicted with the required two-branch workflow. Use
+  Pelican directly for local work and `buildpush.sh` for deployment. Copies
+  inside theme backups belong to the upstream theme and are not project helpers.
 - Local-only builds can use Pelican directly; use `publishconf.py` to validate
   production URLs, feeds, and output before deployment. A build-only check does
   not authorize a push.

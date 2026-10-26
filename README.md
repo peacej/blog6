@@ -12,6 +12,16 @@ Run `bash buildpush.sh` to automatically build (convert from Markdown to HTML et
 
 Run `python medium_to_markdown.py` for an interactive migration tool to convert a Medium article into a markdown file.
 
+For local work, run Pelican directly in WSL with `.venv` activated:
 
+```bash
+source .venv/bin/activate
+pelican content -s pelicanconf.py     # Build locally
+pelican content -s pelicanconf.py -l  # Serve the generated site locally
+pelican content -s publishconf.py     # Build with production settings; no push
+```
+
+Use `bash buildpush.sh` for an authorized deployment after reviewing all changes
+it will stage; see `AGENTS.md` for its prerequisites and limitations.
 
 More details in [my blog post](https://jerrychi.com/easy-blog-migration-from-medium-to-your-own-site-using-python.html).
